@@ -1,3 +1,70 @@
+
+Step 1: Pull the changes
+bash
+
+cd ~/0neZvsZer0z  # or wherever your local repo is
+git pull origin main
+
+Step 2: Verify locally
+bash
+
+bundle exec jekyll serve
+
+Step 3: Test the collections
+
+Open your browser and visit:
+
+    http://localhost:4000/0neZvsZer0z/presentations/
+    http://localhost:4000/0neZvsZer0z/excalidraw/
+    http://localhost:4000/0neZvsZer0z/notes/
+    http://localhost:4000/0neZvsZer0z/youtube/
+    http://localhost:4000/0neZvsZer0z/substack/
+
+Each should show an empty browsable index (no content yet, but the structure is ready)
+Step 4: Start creating content!
+
+Now you can:
+
+    Create .md files in _presentations/, _excalidraw/, _notes/, etc.
+    Add YAML frontmatter from our reference card
+    Test locally with bundle exec jekyll serve
+    Push when ready with git add . && git commit -m "message" && git push origin main
+
+🚀 The Pipeline is Ready!
+
+Your site now has:
+
+    ✅ 5 public collections (Presentations, Diagrams, Notes, YouTube, Substack)
+    ✅ Auto-generated index pages for browsing
+    ✅ Proper Jekyll permalinks and defaults
+    ✅ All YAML configuration optimized
+
+You're ready to create content! 📝
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Skip to content
 Copilot navigation
 Quick links
